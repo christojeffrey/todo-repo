@@ -1,3 +1,18 @@
 *{
-    background-color: green;
+    margin : 0;
+    border : 0;
+    padding: 0;
+}
+#title{
+    margin-top: 10%;
+    text-align: center;
+}
+#text-area{
+    background-color:wheat;
+    border:0;
+    padding: 0;
+    text-align: center;
+}
+#add-button{
+    background-image: url(image/add-buton.png);
 }
