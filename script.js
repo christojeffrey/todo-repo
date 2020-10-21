@@ -29,11 +29,6 @@ function add_button_clicked(){
     //appending list to todo-list
     var todo_list = document.getElementById("todo-list");
     todo_list.appendChild(list);
-
-
- 
-    }
-document.getElementsByClassName("trash-button").addEventListener("click", trashed);
-function trashed(){
-    console.log("trashed!");
 }
+
+document.addEventListener("click",function(e){console.log("WOIIII", e.Target)});

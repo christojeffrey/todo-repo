@@ -16,3 +16,6 @@
 #add-button{
     background-image: url(image/add-buton.png);
 }
+#todo-list{
+    color: violet;
+}
